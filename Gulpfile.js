@@ -23,7 +23,8 @@ var paths = {
     ],
     reportsConcatDist: [
         'reports/dist/tmpl.min.js',
-        'reports/app/**/*.js'
+        'reports/app/**/*.js',
+        'vendor/reports-router.js'
     ],
     mainConcatTest: [
         'shared/vendor/jquery/dist/jquery.min.js',
