@@ -1,0 +1,8 @@
+node_modules/*
+shared/*
+main/vendor/*
+main/lib/*
+main/dist/*
+reports/vendor/*
+reports/lib/*
+reports/dist/*

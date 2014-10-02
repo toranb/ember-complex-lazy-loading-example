@@ -1,0 +1,20 @@
+A real-world ember.js app that will load the reporting app on the fly
+
+
+To run the ember.js app locally
+
+    npm install
+    gulp main
+    gulp reports
+
+    python -m SimpleHTTPServer 3000
+
+    visit http://localhost:3000 to see the running app
+
+
+To run the javascript tests
+
+    npm install
+
+    gulp testmain
+    gulp testreports

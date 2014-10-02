@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ember.js + grunt</title>
+</head>
+<body>
+
+<script src="main/dist/deps.min.js"></script>
+
+<script src="shared/vendor/fauxjax/dist/fauxjax.min.js"></script>
+<script>
+
+var fake = [{firstName: "grunt", lastName: "cli"}, {firstName: "ember", lastName: "js"}];
+$.fauxjax.new({
+  type: 'GET',
+  url: '/api/people',
+  dataType: 'json',
+  responseText: fake
+});
+
+$.fauxjax.settings.responseTime = 0;
+
+</script>
+
+<script>
+
+window.App = require('js/app')["default"].create();
+
+</script>
+
+</body>
+</html>
