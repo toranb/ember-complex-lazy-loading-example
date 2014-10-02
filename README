@@ -16,5 +16,5 @@ To run the javascript tests
 
     npm install
 
-    gulp testmain
-    gulp testreports
+    gulp maintest
+    gulp reportstest
